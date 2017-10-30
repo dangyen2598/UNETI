@@ -1,0 +1,119 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+body{
+	/*background-image:url("img/ten-anh.jpn");*/
+	background-color:white;
+	width:900px;
+	margin:auto;
+}
+#logo{
+	height:110px;/*chiều cao*/
+	width:900px;/*chiều rộng*/
+	/*border:1px solid red; bỏ màu của khung logo*/
+	margin:auto;
+	margin-top:10px;
+
+}
+#logo img{
+	width:100%;
+	height:110px;
+
+}
+#menu{/*tạo khung cho thanh trang chủ...
+	border:1px solid blue;*/
+	width:900px;
+	background-color:blue;
+	height:30px;
+	margin:auto;
+	border-radius:5px;
+
+}
+#menu ul li{/* đưa các thanh trang chủ vào khung vừa tạo*/
+	list-style-type:none;
+	float:left;
+	border-right:1px solid white;
+	line-height:30px;
+	margin:auto;
+	text-align:center;
+}
+#menu ul li a{/* tạo màu cho chữ trang chủ..*/
+	text-decoration:none;
+	color:white;
+	font-size:15px;
+
+}
+#menu ul li:hover{/*đổi màu khi trỏ con chuột vào chữ đó */
+	background-color:orange ;
+
+}
+#main{
+	height:1000px;
+	width:1000px;
+	margin:auto;
+	 border:1px solid red;
+	
+	border-radius:4px;
+
+}
+#left{
+	/* border:1px solid black;*/
+	/*height:1000px;*/
+	width:500px;
+	float:left;
+	
+	margin-top:10px;
+	border:1px solid #0098db;
+
+}
+#right{
+	/*border :1px solid black;*/
+	height:330px;
+	width:260px;
+	float:right;
+	margin-top:10px;
+	border-radius:4px;
+}
+#thongbao{
+	height:700px;
+	width:100%;
+	background:white;
+	/*border:1px solid red;*/
+	border-radius:4px;
+
+}
+#tintuc{
+	width:620px;
+	height:370px;
+	/*background-color:lightblue;
+	color:white;*/
+	border-radius:4px;
+ 	margin-top:10px;
+}
+#thongbao1{
+	width:99%;
+	height:40px;
+	border:1px solid blue;
+	background-color:blue;
+	border-radius:4px;
+	color:white;
+	line-height:40px;
+}
+.noidungthongbao{
+	width:97%;
+	height:70px;
+	border-bottom:dotted 1px gray;
+	/* background-color:#0098db;*/
+	margin-top:15px;
+	padding-bottom:5px;
+	color:#0098db;
+	padding-left:8px;
+}
+#dangnhap{
+	border:1px solid lightblue;
+
+	border-radius:4px;
+	width:100%;
+	height:300px;
+}
